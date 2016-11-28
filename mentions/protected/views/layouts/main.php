@@ -14,6 +14,8 @@
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/main.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/form.css">
+	<!--CUSTOM-->
+	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/jquery.mentionsInput.css">
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
@@ -55,5 +57,11 @@
 
 </div><!-- page -->
 
+
+  <script src='<?php echo Yii::app()->request->baseUrl; ?>/js/lib/jquery.events.input.js' type='text/javascript'></script>
+  <script src='<?php echo Yii::app()->request->baseUrl; ?>/js/lib/jquery.elastic.js' type='text/javascript'></script>
+  <script src='<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.mentionsInput.js' type='text/javascript'></script>
+  <script src='<?php echo Yii::app()->request->baseUrl; ?>/js/mentions-mas.js' type='text/javascript'></script>
+  
 </body>
 </html>
