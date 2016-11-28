@@ -9,5 +9,19 @@ $(function () {
     }
 
   });
+/*traer sintaxis*/
+  $('.get-syntax-text').click(function() {
+    $('textarea.mention-example2').mentionsInput('val', function(text) {
+      alert(text);
+    });
+  });
+
+/*traer las menciones*/
+ $('.get-mentions').click(function() {
+    $('textarea.mention-example2').mentionsInput('getMentions', function(data) {
+      alert(JSON.stringify(data));
+    });
+  }) ;
+
 
 });

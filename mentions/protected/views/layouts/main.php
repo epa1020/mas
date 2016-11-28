@@ -57,6 +57,8 @@
 
 </div><!-- page -->
 
+<script src='<?php echo Yii::app()->request->baseUrl; ?>/js/jquery-3.1.1.min.js' type='text/javascript'></script>
+<script src='<?php echo Yii::app()->request->baseUrl; ?>/js/underscore-min.js' type='text/javascript'></script>
 
   <script src='<?php echo Yii::app()->request->baseUrl; ?>/js/lib/jquery.events.input.js' type='text/javascript'></script>
   <script src='<?php echo Yii::app()->request->baseUrl; ?>/js/lib/jquery.elastic.js' type='text/javascript'></script>

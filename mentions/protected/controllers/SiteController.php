@@ -45,6 +45,13 @@ class SiteController extends Controller
 				$this->render('error', $error);
 		}
 	}
+	/**/
+
+	public function actionMentions()
+	{
+		
+		$this->render('mentions',array('model'=>'hola'));
+	}
 
 	/**
 	 * Displays the contact page

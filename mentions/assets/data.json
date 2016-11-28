@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Edward Benitez",
+        "avatar": "http://cdn0.4dots.com/i/customavatars/avatar7112_1.gif",
+        "type": "contact"
+    },
+    {
+        "id": 2,
+        "name": "Juan Perez Froda",
+        "avatar": "http://cdn0.4dots.com/i/customavatars/avatar7112_1.gif",
+        "type": "contact"
+    },
+    {
+        "id": 3,
+        "name": "Maria Palacios",
+        "avatar": "http://cdn0.4dots.com/i/customavatars/avatar7112_1.gif",
+        "type": "contact"
+    },
+    {
+        "id": 4,
+        "name": "Edgar Juarez",
+        "avatar": "http://cdn0.4dots.com/i/customavatars/avatar7112_1.gif",
+        "type": "contact"
+    },
+    {
+        "id": 5,
+        "name": "Juan Manuel Haugstrup",
+        "avatar": "http://cdn0.4dots.com/i/customavatars/avatar7112_1.gif",
+        "type": "contact"
+    },
+    {
+        "id": 6,
+        "name": "Ernesto Lacey",
+        "avatar": "http://cdn0.4dots.com/i/customavatars/avatar7112_1.gif",
+        "type": "contact"
+    },
+    {
+        "id": 7,
+        "name": "ernes@auchenberg.dk",
+        "avatar": "http://cdn0.4dots.com/i/customavatars/avatar7112_1.gif",
+        "type": "contact"
+    }
+]
