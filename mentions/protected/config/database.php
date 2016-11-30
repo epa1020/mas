@@ -11,4 +11,11 @@ return array(
 	'password' => '',
 	'charset' => 'utf8',
 	*/
+
+
+'connectionString' => 'mysql:host=localhost;dbname=mas',
+'emulatePrepare' => true,
+'username' => 'root',
+'password' => '',
+'charset' => 'utf8',
 );
