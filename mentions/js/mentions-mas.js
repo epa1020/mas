@@ -1,27 +1,29 @@
-$(function () {
 
-  $('textarea.mention-example2').mentionsInput({
-    onDataRequest:function (mode, query, callback) {
-      $.getJSON('assets/data.json', function(responseData) {
-        responseData = _.filter(responseData, function(item) { return item.name.toLowerCase().indexOf(query.toLowerCase()) > -1 });
-        callback.call(this, responseData);
-      });
-    }
+data_users=JSON.parse(data_users);
+$('textarea.mention-example2').mentionsInput({source: data_users})
+$('.get-mentions').click(function(){
 
-  });
-/*traer sintaxis*/
-  $('.get-syntax-text').click(function() {
-    $('textarea.mention-example2').mentionsInput('val', function(text) {
-      alert(text);
-    });
-  });
+var objeto =new Object();
 
-/*traer las menciones*/
- $('.get-mentions').click(function() {
-    $('textarea.mention-example2').mentionsInput('getMentions', function(data) {
-      alert(JSON.stringify(data));
-    });
-  }) ;
-
+    objeto.idusuariocrea=$('#usercrea').data('usuario');
+    objeto.idcaso=$('#idcaso').data('caso');
+    //objeto.texto=$('textarea.mention-example2').mentionsInput('getValue');
+    objeto.texto=$('textarea.mention-example2').mentionsInput('getMentions');
+    $('#respuesta').html(JSON.stringify(objeto));
 
 });
+
+
+
+$('.get-syntax-text').click(function(){
+  $('#respuesta').html($('textarea.mention-example2').mentionsInput('getValue'));
+});
+
+
+
+$('.asigna').click(function(){
+  $('#respuesta').html($('textarea.mention-example2').mentionsInput('setValue','hola te dice @[angry birds](game:5)'));
+});
+
+
+
